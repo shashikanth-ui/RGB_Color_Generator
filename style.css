@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  background-color: #f2f6fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  color: #2c3e50;
+}
+.box {
+  height: 450px;
+  width: 600px;
+  background-color: #ffffff;
+  border-radius: 10%;
+  box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.contain {
+  height: 250px;
+  width: 350px;
+  border-radius: 79px;
+  background-color: rgb(125,125,125);
+}
+.inputbox {
+  height: 40px;
+  border-radius: 999px;
+  background-color: #e0e6eb;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.ranges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  height: 200px;
+  width: 300px;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+p {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0d2125;
+}
+.ccr {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+}
+.copy {
+  text-align: center;
+  color: #ffffff;
+  background-color: #1abc9c;
+  padding: 10px;
+  width: 100px;
+  border-radius: 9px;
+  box-shadow: 1px 1px 5px 2px rgba(52, 73, 94, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.rgb {
+  text-align: center;
+  color: #ffffff;
+  background-color: #3498db;
+  padding: 10px;
+  width: 150px;
+  border-radius: 9px;
+}
+.copy:active {
+  box-shadow: 1px 1px 5px 3px #2980b9;
+  background-color: #16a085;
+}
